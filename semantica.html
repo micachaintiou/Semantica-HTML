@@ -1,0 +1,51 @@
+<!-- Elementos semanticos:
+<section>: Para indicar una nueva seccion
+<article>: Elementos independientes, pueden tener su titulo, etc
+<aside>: Agrega un elemento a la barra lateral, puede agregar informacion extra de un articulo, ej: creador del articulo, fecha, etc
+<header> y <footer>: Cabecero y pie de pagina
+<hgroup>: Agrupa varios elementos
+<nav>: Define una barra de navegacion
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas Semanticas en HTML</title>
+    <link rel="stylesheet" href="semantica.css">
+</head>
+<body>
+    <header> <!-- Cabecero de la pagina -->
+        <h1>Etiquetas semanticas en HTML5</h1>
+    </header>
+    <nav> <!-- Barra de navegacion -->
+        <a href="#">Inicio</a> <!-- Con el # se queda en la misma pagina -->
+        <a href="#">Servicios</a>
+        <a href="#">Contacto</a>
+        <a href="#">Acerca De</a>
+    </nav>
+    <section> <!-- Indica una nueva seccion -->
+        <h2>Seccion 1</h2>
+        <p>Informacion de la seccion</p>
+        <aside> <!-- Informacion extra -->
+            <p>Nombre del Autor</p>
+        </aside>
+    </section>
+    <section>
+        <h2>Seccion 2</h2>
+        <article>
+            <h3>Articulo 2</h3>
+        </article>
+        <article>
+            <h3>Articulo 3</h3>
+        </article>
+    </section>
+    <footer>
+        <h2>
+            <a href="#">Final</a>
+        </h2>
+    </footer>
+</body>
+</html>
